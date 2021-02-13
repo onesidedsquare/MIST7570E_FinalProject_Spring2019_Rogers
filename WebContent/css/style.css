@@ -1,0 +1,290 @@
+html, body {
+margin : 0;
+padding : 0;
+}
+body {
+font : 73% "Trebuchet MS", Arial, Tahoma, Helvetica, sans-serif;
+background : #B5B5B5 url(images/bg.jpg) center repeat-y;
+color : #666;
+}
+		/* CONTAINER PROPERTIES */
+#container {
+width : 750px;
+margin : 0 auto;
+padding: 0;
+}
+.divider {
+clear: both;
+width : 750px;
+height: 10px;
+padding-bottom:  0;
+background : transparent url(images/divider.jpg) repeat-x;
+color : #000;
+}
+.topimg {
+clear: both;
+width : 100%;
+height: 150px;
+margin: 0;
+padding-bottom:  0;
+background : #fff url(images/topimg.jpg) no-repeat;
+color : #fff;
+}
+.topimg h2 {
+font-size: 2em;
+padding: 120px 0 0 560px;
+}
+		/* TOPBAR PROPERTIES */
+#topbar {
+height: 50px;
+padding-top:  0;
+border-top: 10px solid #93B013;
+border-bottom : 0px solid #3D5F9A;
+background : #fff;
+color : #333;
+}
+#topbar h1 {
+float: left;
+margin : 0;
+padding : 10px 0 0 10px;
+font-size: 90%;
+}
+#topbar h2 {
+float: right;
+margin : 0;
+padding : 10px 10px 0 0;
+font-size: 100%;
+}
+#topbar a:link, #topbar a:visited {
+text-decoration : none;
+background : inherit;
+color : #3D5F9A;
+}
+#topbar a:hover {
+text-decoration : none;
+background : inherit;
+color : #5D775A;
+}
+		/* CONTENT PROPERTIES */
+#content {
+margin : 0 240px 40px 0;
+padding : 10px;
+line-height: 2em;
+background: #fff;
+color: #666;
+}
+#content h1 {
+margin: .5em 0 0 .5em;
+padding: 5px;
+letter-spacing: 2px;
+font-size: 170%;
+background : inherit;
+color: #92B012;
+}
+#content h2 {
+margin: .5em 0 0 0.5em;
+padding: 5px;
+font-size: 140%;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+background : inherit;
+color: #B07E13;
+}
+#content h3 {
+margin : 0 0 1em 2em;
+letter-spacing: 2px;
+font-size: 90%;
+background : inherit;
+color: #B07E13;
+}
+		/* SIDEBAR PROPERTIES */
+#sidebar {
+float : right;
+width: 205px;
+margin : 0;
+padding : 0 1em 1em 1em;
+border-left : 0px solid #eee;
+line-height: 1.5em;
+}
+#sidebar p {
+margin-bottom : .5em;
+padding:0px;
+}
+#sidebar h1 {
+margin: 0;
+padding : 10px;
+font-size: 110%;
+text-transform: uppercase;
+background : inherit;
+color: #93B013;
+}
+#sidebar h2 {
+margin : 0;
+padding : 15px 0 0 0;
+font-size: 125%;
+letter-spacing: 2px;
+text-align: center;
+text-transform: uppercase;
+background : inherit;
+color: #48513C;
+}
+		/* FOOTER PROPERTIES */
+#footer {
+clear : both;
+width:750px;
+height: 150px;
+margin : 0;
+padding : 0 0 0 0;
+background : #fff url(images/lemon-plantation.jpg) no-repeat;
+color : #fff;
+}
+#footer p {
+padding-left : 5px;
+}
+#footer h1 {
+padding: 5px 0 10px 20px;
+font-size:130%;
+letter-spacing: 5px;
+text-transform: uppercase;
+background: inherit;
+color: #48513C;
+}
+#footer a:link, #footer a:visited {
+text-decoration : underline;
+background : inherit;
+color : #333;
+}
+#footer a:hover {
+text-decoration : none;
+background : inherit;
+color : #B07E13;
+}
+#credits {
+clear: both;
+width:750px;
+margin-top: 0;
+padding: 0;
+font-size: .9em;
+background : #fff;
+color: #333;
+}
+		/* COLUMN PROPERTIES */
+.col3,.col3center {
+float: left;
+width: 29%;
+margin-left : 20px;
+}
+.col3center {
+margin: 0 3%;
+}
+		/* LINK PROPERTIES */
+a img {
+border: 0;
+}
+a:link, a:visited {
+text-decoration : none;
+background : inherit;
+color : #87452B;
+}
+a:hover {
+text-decoration : underline;
+background : inherit;
+color : #000;
+}
+a:active {
+text-decoration : none;
+background : inherit;
+color : #A7D791;
+}
+.navlist li {
+margin: 0 15px 0 0;
+padding: 2px;
+font-size: 110%;
+list-style-image:url(images/right-green.gif);
+background: inherit;
+color: #D5D9B4;
+}
+		/* TYPOGRAPHY*/
+p {
+padding : 0 0 .2em 1em;
+}
+p strong {
+background: inherit;
+color:#496A29;
+}
+blockquote {
+padding:10px;
+margin:0 20px;
+font-weight : bold;
+border:1px solid #B07E13;
+font-style:italic;
+color : #b29b35;
+}
+		/* CLASS PROPERTIES */
+.box {
+margin : 5px 5px 15px 5px;
+padding: 10px;
+text-transform : uppercase;
+font-weight: 600;
+background: #84934C;
+color: #fff;
+}
+.box2 {
+margin : 5px 5px 15px 5px;
+padding: 5px;
+border: 0px solid #eee;
+background: inherit;
+color:#666;
+}
+		/* IMAGE PROPERTIES */
+.imgleft {
+float: left;
+padding:0px;
+margin-right: 5px;
+border : 0px solid #7AB523;
+}
+.imgright {
+float: right;
+padding:5px;
+margin-right: 5px;
+border : 1px solid #7AB523;
+}
+.noborder {
+float: left;
+padding:0;
+margin: 0;
+}
+.imglogo {
+padding:0;
+margin: 0 0 0 10px;
+}
+		/* ROUNDED CORNERS */
+/* set millions of background images */
+.rbroundbox { background: url(images/nt.gif) repeat; }
+.rbtop div { background: url(images/tl.gif) no-repeat top left; }
+.rbtop { background: url(images/tr.gif) no-repeat top right; }
+.rbbot div { background: url(images/bl.gif) no-repeat bottom left; }
+.rbbot { background: url(images/br.gif) no-repeat bottom right; }
+
+/* height and width stuff, width not really nessisary. */
+.rbtop div, .rbtop, .rbbot div, .rbbot {
+width: 100%;
+height: 7px;
+font-size: 1px;
+}
+.rbcontent {
+margin: 20px;
+font-family: "Trebuchet MS", Arial, Tahoma,  Helvetica, sans-serif;
+color: #F0F0F0;
+background: inherit;
+ }
+.rbroundbox {
+width: 95%; margin: .5em auto;
+}
+			/*SEARCH BOX*/
+legend {
+color: #333;
+}
+input {
+background: #fff;
+}
